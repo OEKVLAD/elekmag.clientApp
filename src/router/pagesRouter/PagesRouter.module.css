@@ -1,0 +1,28 @@
+.firstContainer {
+  position: sticky;
+  top: 0;
+  order: 2;
+  display: flex;
+  flex-wrap: wrap;
+  width: 33%;
+  max-height: 768px;
+}
+.secondContainer {
+  order: 1;
+  display: flex;
+  flex-wrap: wrap;
+  width: 67%;
+}
+.thirdContainer {
+  position: relative;
+  right: 0;
+  order: 3;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.productPageContainer {
+  display: flex;
+  flex-wrap: wrap;
+}

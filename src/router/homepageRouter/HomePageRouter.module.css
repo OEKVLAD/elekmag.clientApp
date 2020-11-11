@@ -1,0 +1,12 @@
+.ArticlesList {
+  display: flex;
+  flex-wrap: wrap;
+}
+.Article {
+  width: 320px;
+  margin: auto;
+}
+
+.ArticleBox{
+  width: 33.33%;
+}
