@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -11,55 +14,18 @@
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="BRANCH:feature/homapageComponent" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:develop" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </select>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0d9f1ac1-3e37-45f6-8d66-8a60c43f5c7d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/footer/Footer.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/footer/Footer.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/footer/footerSlice.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/header/Header.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/header/Header.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/header/headerSlice.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/post/postList/PostList.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/post/postList/PostList.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/post/postList/postListSlice.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/router/Routers.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/router/categoriesRouter/CategoriesRouter.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/router/categoriesRouter/CategoriesRouter.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/router/homepageRouter/HomePageRouter.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/router/homepageRouter/HomePageRouter.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/router/pagesRouter/PagesRouter.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/router/pagesRouter/PagesRouter.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/router/postsRouter/PostsRouter.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/router/postsRouter/PostsRouter.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/router/productPageRouter/ProductPageRouter.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/router/productPageRouter/ProductPageRouter.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/router/routerSlice.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/elekmag.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/elekmag.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/logo192.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/logo192.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/logo512.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/logo512.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/robots.txt" beforeDir="false" afterPath="$PROJECT_DIR$/public/robots.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.test.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.test.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/logo.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reportWebVitals.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/setupTests.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/setupTests.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/Product.model.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/service/Product.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/service/Service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/router/productPageRouter/ProductPageRouter.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/router/productPageRouter/ProductPageRouter.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/router/routerSlice.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/router/routerSlice.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,7 +64,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="com.wix.rt.settings.RTSettingsPage" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="ts.external.directory.path" value="C:\Users\Vladyslav\Documents\Projects\elekmag\node_modules\typescript\lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -135,6 +101,7 @@
       <workItem from="1605036518475" duration="1662000" />
       <workItem from="1605038699714" duration="14029000" />
       <workItem from="1605090361049" duration="23096000" />
+      <workItem from="1605380295770" duration="8170000" />
     </task>
     <servers />
   </component>
@@ -152,7 +119,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="feature/homapageComponent" />
+                        <option value="develop" />
                       </list>
                     </value>
                   </entry>
@@ -174,26 +141,26 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="740" y="280" key="FileChooserDialogImpl/0.0.1920.1050/1920.-131.1600.1170@0.0.1920.1050" timestamp="1605045347837" />
-    <state width="1899" height="210" key="GridCell.Tab.0.bottom" timestamp="1605134076015">
+    <state width="1899" height="210" key="GridCell.Tab.0.bottom" timestamp="1605391506279">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1899" height="210" key="GridCell.Tab.0.bottom/0.0.1920.1050/1920.-131.1600.1170@0.0.1920.1050" timestamp="1605134076015" />
-    <state width="1899" height="210" key="GridCell.Tab.0.center" timestamp="1605134076014">
+    <state width="1899" height="210" key="GridCell.Tab.0.bottom/0.0.1920.1050/1920.-131.1600.1170@0.0.1920.1050" timestamp="1605391506279" />
+    <state width="1899" height="210" key="GridCell.Tab.0.center" timestamp="1605391506279">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1899" height="210" key="GridCell.Tab.0.center/0.0.1920.1050/1920.-131.1600.1170@0.0.1920.1050" timestamp="1605134076014" />
-    <state width="1899" height="210" key="GridCell.Tab.0.left" timestamp="1605134076014">
+    <state width="1899" height="210" key="GridCell.Tab.0.center/0.0.1920.1050/1920.-131.1600.1170@0.0.1920.1050" timestamp="1605391506279" />
+    <state width="1899" height="210" key="GridCell.Tab.0.left" timestamp="1605391506279">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1899" height="210" key="GridCell.Tab.0.left/0.0.1920.1050/1920.-131.1600.1170@0.0.1920.1050" timestamp="1605134076014" />
-    <state width="1899" height="210" key="GridCell.Tab.0.right" timestamp="1605134076014">
+    <state width="1899" height="210" key="GridCell.Tab.0.left/0.0.1920.1050/1920.-131.1600.1170@0.0.1920.1050" timestamp="1605391506279" />
+    <state width="1899" height="210" key="GridCell.Tab.0.right" timestamp="1605391506279">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1899" height="210" key="GridCell.Tab.0.right/0.0.1920.1050/1920.-131.1600.1170@0.0.1920.1050" timestamp="1605134076014" />
-    <state x="461" y="170" key="SettingsEditor" timestamp="1605045436444">
+    <state width="1899" height="210" key="GridCell.Tab.0.right/0.0.1920.1050/1920.-131.1600.1170@0.0.1920.1050" timestamp="1605391506279" />
+    <state x="462" y="228" key="SettingsEditor" timestamp="1605387175586">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="461" y="170" key="SettingsEditor/0.0.1920.1050/1920.-131.1600.1170@0.0.1920.1050" timestamp="1605045436444" />
+    <state x="462" y="228" key="SettingsEditor/0.0.1920.1050/1920.-131.1600.1170@0.0.1920.1050" timestamp="1605387175586" />
     <state x="472" y="261" width="585" height="534" key="find.popup" timestamp="1605050892716">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -202,9 +169,9 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="440" y="247" key="run.anything.popup/0.0.1920.1050/1920.-131.1600.1170@0.0.1920.1050" timestamp="1605097282768" />
-    <state x="447" y="233" width="672" height="678" key="search.everywhere.popup" timestamp="1605110468650">
+    <state x="447" y="233" width="672" height="678" key="search.everywhere.popup" timestamp="1605390034979">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="447" y="233" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050/1920.-131.1600.1170@0.0.1920.1050" timestamp="1605110468650" />
+    <state x="447" y="233" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050/1920.-131.1600.1170@0.0.1920.1050" timestamp="1605390034979" />
   </component>
 </project>
