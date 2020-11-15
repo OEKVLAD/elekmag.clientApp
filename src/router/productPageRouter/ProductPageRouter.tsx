@@ -1,4 +1,5 @@
 import React from 'react';
+import {ProductModel} from './../../model/Product.model';
 
 import AwesomeSlider from 'react-awesome-slider';
 import 'react-awesome-slider/src/styles';
@@ -14,22 +15,17 @@ import {
 import styles from './ProductPageRouter.module.css';
 import Container from "react-bootstrap/cjs/Container";
 
+import {ProductAttributeTermsList} from "../../component/product/ProductAttributeTermsList/ProductAttributeTermsList";
+
 export function ProductPageRouter() {
   const ROUTER = useSelector(router);
   let content = ROUTER.content;
 
   return (
     <>
-      {content.map((contentPage: {
-        name: string,
-        description:  string,
-        short_description:  string,
-        price: number,
-        regular_price: number,
-        sale_price: number,
-        images: any,
-      })  => (
+      {content.map((contentPage: ProductModel)  => (
         <>
+          <ProductAttributeTermsList arrayProductAttributeTermsList={[270]}/>
           <div className={styles.productPageContainer}>
             <div className={styles.firstContainer}>
               <Container>

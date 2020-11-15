@@ -12,7 +12,10 @@ export default abstract class Service {
     public static get getDefaultHeaders(): any{
         return this.defaultHeaders;
     }
-    public static get getProductURL(): string{
+    public static getProductURL(): string{
         return `${ this.restApiUrl }/wc/v3/products`;
+    }
+    public static getProductAttributesTermsURL(attributeId : number): string{
+        return `${ this.restApiUrl }/wc/v3/products/attributes/${attributeId}/terms`;
     }
 }
